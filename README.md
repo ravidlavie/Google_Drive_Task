@@ -17,7 +17,7 @@ To run the script successfully, the following permissions and scopes are require
 - **Google OAuth2 Token**: The script needs authorization to access the user's Google Drive. 
 
 Follow these steps to authorize the script:
-1. Run the script: https://script.google.com/home/projects/1QDaGJ13G3za9QVdUjrMXqJKbSE7xyzeY76PVnC614Eq3Y_8M_kgSgj8F/edit 
+1. Run the script.
 2. click on "Review Permissions".
 3. Sign in to your Google account.
 4. Click on "Advanced" under "This app isn't verified".
