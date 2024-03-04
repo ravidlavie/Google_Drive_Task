@@ -50,8 +50,8 @@ Other studies such as those from Salt Security state that API attacks increased 
 
 Examples attack surfaces while working with the API:
 
-1.Broken User Authentication: Weak authentication mechanisms, sensitive authentication information in URLs, and credential stuffing can lead to unauthorized access.
+1. Broken User Authentication: Weak authentication mechanisms, sensitive authentication information in URLs, and credential stuffing can lead to unauthorized access.
 
-2.Excessive Data Exposure: APIs may expose sensitive data in response to user activities, leading to data breaches.
+2. Excessive Data Exposure: APIs may expose sensitive data in response to user activities, leading to data breaches.
 
-3.Lack of Rate Limiting Controls: Without rate limiting, APIs are vulnerable to denial-of-service attacks, impacting availability and potentially leading to business interruption and loss of revenue.
+3. Lack of Rate Limiting Controls: Without rate limiting, APIs are vulnerable to denial-of-service attacks, impacting availability and potentially leading to business interruption and loss of revenue.
