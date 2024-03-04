@@ -6,6 +6,7 @@ This script monitors a user's Google Drive, checks for new files, determines the
 1. Permissions and Scopes
 2. Known Issues
 3. Dependencies
+4. API Security Considerations
 
 ---
 
@@ -42,3 +43,15 @@ pip install google-auth google-api-python-client google-auth-httplib2 google-aut
 ```
 
 ---
+### 4. API Security Considerations
+
+"Akamai estimates that roughly 83% of internet traffic is API-based. 
+Other studies such as those from Salt Security state that API attacks increased over 600% from 2021 to 2022, and Gartner predicts that 90% of web-enabled applications will have broader attack surfaces due to exposed API’s."
+
+## Examples attack surfaces while working with the API:
+
+1.Broken User Authentication: Weak authentication mechanisms, sensitive authentication information in URLs, and credential stuffing can lead to unauthorized access.
+
+2.Excessive Data Exposure: APIs may expose sensitive data in response to user activities, leading to data breaches.
+
+3.Lack of Rate Limiting Controls: Without rate limiting, APIs are vulnerable to denial-of-service attacks, impacting availability and potentially leading to business interruption and loss of revenue.
