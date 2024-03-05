@@ -26,9 +26,13 @@ Follow these steps to authorize the script:
 5. Click on "Go to Public Google Drive files audit (unsafe)".
 6. Click "Allow".
 
+---
+
 ### 2. Known Issues
 
 - Currently, the script does not handle shared drives (Team Drives). It only monitors files and folders in a user's personal Google Drive.
+
+---
 
 ### 3. Dependencies
 
@@ -67,11 +71,12 @@ To run the script, follow these steps:
     ```
     python monitor_drive.py
     ```
-
-### 2. Example Output:
+ Example Output:
 
 After running the script, you should see output similar to the following:
 File: Example.docx, Sharing Status: False, Default Sharing Settings: [{'emailAddress': 'example@gmail.com', 'role': 'writer', 'type': 'user'}], Changed: False
+
+---
 
 ### 5. API Security Considerations
 
