@@ -55,7 +55,7 @@ To run the script, follow these steps:
 1. Clone the repository to your local machine:
 
     ```
-    git clone https://github.com/ravidlavie/Google_Drive_Task/blob/main/monitor_drive.py
+    git clone https://github.com/ravidlavie/Google_Drive_Task/tree/main
     ```
 
 2. Install the required dependencies using pip:
