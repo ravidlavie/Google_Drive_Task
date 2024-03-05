@@ -74,6 +74,7 @@ To run the script, follow these steps:
  Example Output:
 
 After running the script, you should see output similar to the following:
+
 File: Example.docx, Sharing Status: False, Default Sharing Settings: [{'emailAddress': 'example@gmail.com', 'role': 'writer', 'type': 'user'}], Changed: False
 
 ---
