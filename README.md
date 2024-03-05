@@ -46,14 +46,12 @@ pip install google-auth google-api-python-client google-auth-httplib2 google-aut
 ---
 ### 4. Usage Examples
 
-Basic Usage:
-
 To run the script, follow these steps:
 
 1. Clone the repository to your local machine:
 
     ```
-    git clone [<repository-url>](https://github.com/ravidlavie/Google_Drive_Task/blob/main/monitor_drive.py)
+    git clone https://github.com/ravidlavie/Google_Drive_Task/blob/main/monitor_drive.py
     ```
 
 2. Install the required dependencies using pip:
