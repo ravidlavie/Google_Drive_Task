@@ -6,7 +6,8 @@ This script monitors a user's Google Drive, checks for new files, determines the
 1. Permissions and Scopes
 2. Known Issues
 3. Dependencies
-4. API Security Considerations
+4. Usage Examples
+5. API Security Considerations
 
 ---
 
@@ -43,7 +44,38 @@ pip install google-auth google-api-python-client google-auth-httplib2 google-aut
 ```
 
 ---
-### 4. API Security Considerations
+### 4. Usage Examples
+
+Basic Usage:
+
+To run the script, follow these steps:
+
+1. Clone the repository to your local machine:
+
+    ```
+    git clone [<repository-url>](https://github.com/ravidlavie/Google_Drive_Task/blob/main/monitor_drive.py)
+    ```
+
+2. Install the required dependencies using pip:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. Ensure you have a `credentials.json` file with the necessary credentials for accessing the Google Drive API. 
+
+4. Run the script using Python:
+
+    ```
+    python monitor_drive.py
+    ```
+
+### 2. Example Output:
+
+After running the script, you should see output similar to the following:
+File: Example.docx, Sharing Status: False, Default Sharing Settings: [{'emailAddress': 'example@gmail.com', 'role': 'writer', 'type': 'user'}], Changed: False
+
+### 5. API Security Considerations
 
 "Akamai estimates that roughly 83% of internet traffic is API-based. 
 Other studies such as those from Salt Security state that API attacks increased over 600% from 2021 to 2022, and Gartner predicts that 90% of web-enabled applications will have broader attack surfaces due to exposed API’s."
